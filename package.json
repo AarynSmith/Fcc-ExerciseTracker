@@ -1,0 +1,31 @@
+{
+	"name": "fcc-exercise-tracker",
+	"version": "0.1.0",
+	"description": "A REST API project, part of Free Code Camp's curriculum",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"cors": "^2.8.1",
+		"express": "^4.17.1",
+		"mongodb": "^2.2.14",
+		"mongoose": "^4.7.2",
+		"shortid": "^2.2.6"
+	},
+	"devDependencies": {
+		"browser-sync": "^2.26.13",
+		"gulp": "^4.0.2",
+		"gulp-nodemon": "^2.5.0",
+		"ngrok": "^3.3.0"
+	},
+	"repository": {
+		"url": "https://github.com/AarynSmith/Fcc-ExerciseTracker/"
+	},
+	"license": "MIT",
+	"keywords": [
+		"node",
+		"express"
+	]
+}
